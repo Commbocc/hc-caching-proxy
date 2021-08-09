@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "dev": "nodemon -r dotenv/config src/index.mjs",
+    "start": "node src/index.mjs"
+  },
+  "dependencies": {
+    "adal-node": "^0.2.2",
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "guid": "^0.0.12",
+    "node-fetch": "^2.6.1",
+    "redis": "^3.1.2"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.10"
+  }
+}
